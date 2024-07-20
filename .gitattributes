@@ -38,3 +38,4 @@ saved_model/**/* filter=lfs diff=lfs merge=lfs -text
 # Auto detect text files and perform LF normalization
 * text=auto
 >>>>>>> 74ab81e83dea3e711c3cb6d472af2bc8d170d3e1
+model.pkl filter=lfs diff=lfs merge=lfs -text
