@@ -34,7 +34,7 @@ def classify_image(img):
 
 # %% ../../app.ipynb 16
 # Create an image input component without specifying the shape
-image = gr.Image()
+image = gr.Image(height=350)
 label = gr.Label()
 examples = ['dog.jpg', 'cat.jpg']
 
